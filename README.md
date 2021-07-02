@@ -1,3 +1,3 @@
 # ffadiuvat.github.io
-Fortis Fortuna Adiuvat
-Fortune Favor the Bold
+### Fortis Fortuna Adiuvat
+### Fortune Favor the Bold
