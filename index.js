@@ -7,8 +7,10 @@ app.use((req, res, next) =>{
   next();
 })
 
-app.get('/shell/create_commit', (req, res) => {
-  exec('sh ./create_commit.sh');
+app.get('/shell/create_commit', async (req, res) => {
+  const result = await exec('sh ./create_commit.sh');
+  console.log(result)
+  res.json('OK')
 })
 
 app.listen(port, () => {
